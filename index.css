@@ -112,13 +112,13 @@ a{
 #shubham{
     background: url("pictures/sh.png") no-repeat right, limegreen;
     /* background-position: 900px -20px; */
-    background-size: 350px 550px;
+    background-size: 400px 600px;
 }
 #nemank{
     text-align: right;
     background: url("pictures/nem1.png") no-repeat;
-    background-position: 00px -100px;
-    background-size:500px 700px;
+    background-position: 00px -150px;
+    background-size:600px 800px;
     text-align: center;
 }
 #vignesh{
@@ -127,15 +127,21 @@ a{
     background-size:400px 600px;
 }
 #vaivashvat{
-    text-align: center;
+    text-align: right;
     background: url("pictures/vai.png") no-repeat left bottom;
     /* background-position: 750px -50px; */
     background-size:400px 400px;
 }
 #rohan{
     background: url("pictures/roh1.png") no-repeat right, limegreen;
-    background-position: 750px -50px;
-    background-size:500px 700px;
+    /* background-position: 780px -50px; */
+    background-size:400px 550px;
+}
+.footer{
+    font-family: footerFont;
+    font-size: 20px;
+    text-align: center;
+    color: green;
 }
 
 @font-face{
@@ -145,4 +151,25 @@ a{
 @font-face{
     font-family: quoteFont;
     src:url(Fonts/Hanged\ Letters.ttf);
+}
+@font-face{
+    font-family: categoryFont;
+    src:url(Fonts/K26ToyBlocks123.ttf);
+}
+@font-face{
+    font-family: answerFont;
+    src:url(Fonts/SearchingForSignal.ttf);
+}
+@font-face{
+    font-family: footerFont;
+    src:url(Fonts/Blacklisted.ttf);
+}
+
+.category{
+    font-family: categoryFont;
+    font-size: 50px;
+}
+.answer{
+    font-family: answerFont;
+    font-size: 50px;
 }
