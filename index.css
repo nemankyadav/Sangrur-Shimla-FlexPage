@@ -1,0 +1,148 @@
+html{
+    background-color: greenyellow;
+    scroll-behavior: smooth;
+}
+
+.frames{
+    height: 35em;
+    width: 100%;
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+.frame{
+    box-sizing: border-box;
+    height: 100%;
+    width: 20%;
+    font-family: quoteFont;
+    font-stretch: condensed;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border: solid white 1px;
+    transition: 0.5s ease-in-out;
+}
+
+.f1{
+    background-image: url("pictures/shub.jpg");
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    background-position: -100px 0px;
+    color:white;
+}
+.f2{
+    background-image: url("pictures/nem.heic");
+    background-size: 500px 700px;
+    background-repeat: no-repeat;
+    background-position: -100px -100px;
+    color:white;
+}
+.f3{
+    background-image: url("pictures/vig.heic");
+    background-size: 500px 700px;
+    background-repeat: no-repeat;
+    background-position: -50px -100px;
+    color:black;
+}
+.f4{
+    background-image: url("pictures/vai.heic");
+    background-size: 500px 700px;
+    background-repeat: no-repeat;
+    background-position: -150px -100px;
+    color:white;
+}
+.f5{
+    background-image: url("pictures/roh.heic");
+    background-size: 530px 700px;
+    background-repeat: no-repeat;
+    background-position: -280px -100px;
+    color:black;
+}
+
+.frame > p {
+    visibility: hidden;
+}
+.frame:hover > p{
+    visibility: visible;
+}
+a{
+    transition: all 1s;
+}
+
+.f1:hover{
+    width:38%;
+    background-position: 00px 0px;
+}
+.f2:hover{
+    width:50%;
+    background-position: 00px -50px;
+}
+.f3:hover{
+    width:50%;
+    background-position: 00px -50px;
+}
+.f4:hover{
+    width:50%;
+    background-position: 00px -50px;
+}
+.f5:hover{
+    width:50%;
+    background-position: 00px -50px;
+}
+.frame:hover > a {
+    position: absolute;
+    display: block;
+    top: 9px; 
+    height:18.6em;
+    width: 15.7em;
+}
+
+.f1:hover > a {
+    position: absolute;
+    display: block;
+    top: 9px;
+    height:18.6em;
+    width: 13.2em;
+}
+.profile{
+    font-family: nameFont;
+    font-size: 100px;
+    
+}
+#shubham{
+    background: url("pictures/sh.png") no-repeat right, limegreen;
+    /* background-position: 900px -20px; */
+    background-size: 350px 550px;
+}
+#nemank{
+    text-align: right;
+    background: url("pictures/nem1.png") no-repeat;
+    background-position: 00px -100px;
+    background-size:500px 700px;
+    text-align: center;
+}
+#vignesh{
+    background: url("pictures/vig1.png") no-repeat right, limegreen;
+    /* background-position: 750px -50px; */
+    background-size:400px 600px;
+}
+#vaivashvat{
+    text-align: center;
+    background: url("pictures/vai.png") no-repeat left bottom;
+    /* background-position: 750px -50px; */
+    background-size:400px 400px;
+}
+#rohan{
+    background: url("pictures/roh1.png") no-repeat right, limegreen;
+    background-position: 750px -50px;
+    background-size:500px 700px;
+}
+
+@font-face{
+    font-family: nameFont;
+    src:url(Fonts/KGChasingCars.ttf);
+}
+@font-face{
+    font-family: quoteFont;
+    src:url(Fonts/Hanged\ Letters.ttf);
+}
